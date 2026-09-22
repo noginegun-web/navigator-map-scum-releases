@@ -1,19 +1,74 @@
 # Navigator Map Scum
 
-External Windows map navigator for SCUM, by **NeDjin**.
+**Удобный помощник для путешествий по SCUM от NeDjin.**
 
-This repository contains binary releases and signed update metadata only. Application source code is private.
+Сохраняйте дома, тайники и полезные места, прокладывайте маршруты и возвращайтесь туда, куда нужно. Меньше времени на поиски — больше на игру.
 
-## Download / Скачать
+[**Скачать для Windows**](https://github.com/noginegun-web/navigator-map-scum-releases/releases/latest) · [Поддержка в Discord](https://discord.gg/kQwBDdzxEH)
 
-Open [Latest release](https://github.com/noginegun-web/navigator-map-scum-releases/releases/latest) and download **Navigator-Map-Scum-Setup** for a first installation. **Navigator-Map-Scum-Update** is for existing installations with the standard map already installed.
+![Карта Navigator: положение игрока и боковая панель](images/navigator-map.png)
 
-Windows x64, borderless windowed SCUM. Launch Navigator, then use M in SCUM. Personal markers are stored on your PC. No server component is required.
+## Что умеет Navigator
 
-RU/EN interface, saved places and routes, wheel zoom, marker dragging, local high-quality standard map, and signed in-app updates. Updates do not require a GitHub account.
+- Запоминает ваши места: название, значок и заметка для каждой точки.
+- Помогает идти по маршруту: стрелка, расстояние и переход к следующей остановке.
+- Позволяет приближать и свободно двигать карту. Ошиблись с отметкой? Просто перетащите её.
+- Показывает карту текущей игры или подробную стандартную карту острова.
+- Открывается вместе с картой по **M**. Управление всегда под рукой в боковой панели.
+- Работает на русском и английском языках.
 
-GPS uses the game's Copy Location action (default F9). Game/editor-specific bindings can conflict; the navigator checks the foreground game window before sending input. It does not inject code into SCUM or read its memory.
+Личная карта, ваши точки и маршруты **бесплатны**. Navigator запускается отдельно от игры. Это независимый проект; правила использования сторонних помощников определяет администрация вашего игрового сервера.
 
-Standard map: SCUM 1.2, stitched by [TripplExN](https://www.reddit.com/r/SCUMgame/comments/1rujbe4/scum_12_high_res_map_no_poismarkers_14k_x_14k/), used with the author's published permission. Original game assets belong to their respective rights holders. Newer game/server changes may differ.
+![Подробная карта при сильном увеличении](images/navigator-zoom.png)
 
-Support NeDjin — Sberbank: **5228 6005 5262 8945**. Optional.
+## Установка за пару минут
+
+1. Откройте [последнюю версию](https://github.com/noginegun-web/navigator-map-scum-releases/releases/latest). Для первой установки скачайте **Navigator-Map-Scum-Setup-…exe**.
+2. Запустите установщик и следуйте подсказкам.
+3. Откройте Navigator с ярлыка на рабочем столе, затем запустите SCUM.
+4. В игре используйте **оконный режим без рамки** и нажмите **M**.
+
+Нужна Windows 10/11 x64. Обновить уже установленный Navigator можно файлом **Update** или кнопкой «Обновление» в приложении.
+
+## Как пользоваться
+
+| Действие | Как сделать |
+|---|---|
+| Открыть или закрыть карту | **M** |
+| Закрыть интерфейс | **Esc** |
+| Сохранить место | Щёлкните по свободному месту карты, выберите название и значок |
+| Передвинуть точку | Зажмите на ней левую кнопку мыши и перетащите |
+| Передвинуть карту | Зажмите левую кнопку на свободном месте и двигайте мышь |
+| Приблизить или отдалить | Крутите колёсико мыши |
+| Создать маршрут | «Построить маршрут» → отметьте остановки → «Готово» |
+| Удалить маршрут | «Удалить маршрут»; личные сохранённые места останутся |
+| Включить навигацию | Нажмите «GPS» и проверьте его состояние |
+| Посмотреть подсказки | «Управление»; повторное нажатие или «Свернуть» убирает инструкцию |
+
+При свежих координатах GPS остановка маршрута переключается автоматически в пределах 50 метров. Если позиция временно недоступна, ориентируйтесь на состояние GPS в панели.
+
+## Что даёт подписка
+
+**Для тех, кто играет вместе: общие места на карте вашего отряда.** Один отметил тайник или точку встречи — остальные могут обновить карту и увидеть эту отметку. Личные точки при этом остаются при вас.
+
+- Создавайте несколько отрядов — до **5**, до **50 участников** в каждом.
+- Приглашайте друзей с активной подпиской или добавляйте их по ID.
+- Вместе добавляйте, передвигайте и удаляйте общие отметки.
+- Составом управляет создатель: только он может исключать участников. Каждый участник может выйти сам.
+- После подтверждения оплаты доступ выдаётся автоматически — ждать ручной выдачи ключа не нужно.
+
+| Срок | Цена |
+|---|---:|
+| 1 день | 50 ₽ |
+| 7 дней | 150 ₽ |
+| 14 дней | 250 ₽ |
+
+**Отряды и оплата готовятся к запуску и пока недоступны в публичной версии.** Подписка нужна каждому участнику. Автоматических повторных списаний нет. Счёт выставляется в рублях; сумма в валюте иностранной карты зависит от конвертации.
+
+[Условия доступа и возврата](https://noginegun-web.github.io/navigator-map-scum-releases/terms.html) · [Обработка данных](https://noginegun-web.github.io/navigator-map-scum-releases/privacy.html)
+
+## Нужна помощь?
+
+[**Зайти в Discord NeDjin**](https://discord.gg/kQwBDdzxEH) — вопросы, предложения и сообщения об ошибках.
+
+Автор: **NeDjin**. [Сведения о материалах](CREDITS.md).
